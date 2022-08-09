@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  height: 100vh;
+}
+video {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  left: 20%;
+  font-size: 35px;
+  letter-spacing: 2px;
+  animation: yolo 10s infinite;
+  transform: rotateY(90deg);
+  color: rgb(20, 117, 117);
+}
+@keyframes yolo {
+  5% {
+    box-shadow: none;
+    transform: rotate(180deg);
+  }
+  10% {
+    box-shadow: 5px 5px 50px rgb(19, 105, 110);
+    transform: rotate(45deg);
+    transform: rotateY(0deg);
+  }
+  15% {
+    transform: rotate(135deg);
+    transform: rotateX(90deg);
+  }
+  25% {
+    transform: rotateY(360deg);
+  }
+  35% {
+    transform: rotateY(360deg);
+
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+
+    box-shadow: none;
+  }
+  75% {
+    transform: rotateY(45deg);
+  }
+  85% {
+    transform: rotate(45deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
